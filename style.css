@@ -1,0 +1,120 @@
+body{
+    text-align:center;
+    padding-top:800px;
+    margin:0;
+}
+
+.profile{
+    border-radius:50%;
+    }
+
+#welcome {
+    width:100%;
+    height:100%;
+    bottom:0;
+    position:absolute;
+    display:table;
+    background:linear-gradient(#3ed69c 0%,#3ed6c7 100% )
+  }
+
+  h1{
+    font-size:40px;
+    font-weight:300;
+    font-family:'Gill Sans',cursive;
+  }
+
+  h2{
+    font-size:30px;
+    font-weight:300;
+    font-family:'Dancing Script', cursive;
+  }
+
+  
+
+  .parallax-inner{
+    display:table-cell;
+    vertical-align:middle;
+  }
+
+  .links{
+    font-size:20px;
+    font-family: 'Oswald', sans-serif;
+        color:rgb(25, 21, 233);
+    display:inline;
+    padding-left:33px;
+    padding-right:25px;
+
+  }
+
+  .links:hover{
+    font-size:25px;
+        text-decoration:underline;
+  }
+
+  .menu{
+    position:fixed;
+    background-color: rgb(250, 250, 250);
+    width:100%;
+    top:0px;
+    z-index:10;
+    margin-top:0px;
+      }
+
+      .line{
+        background-color:black;
+        width:70px;
+        height:6px;
+        margin:8px auto;
+        border-radius:20px;
+      }
+      #bio{
+        font-family:cursive;
+        padding:50px;
+      }
+
+      input[type-text],input[type-email],input[type-password]{
+        width: 100px;
+        height:5px;
+        padding:15px;;
+        margin:5px 0 22px 0;
+        display: inline-block;
+        border:none;
+        outline:none;
+        background:rgb(172, 90, 90);
+        }
+
+        .container{
+            padding:16px;
+            background-color:lightblue;
+
+        }
+
+        input[type-text]:focus,input[type-email]:focus,input[type-password]:focus{
+            background-color:rgb(77, 73, 73);
+            outline:none;
+         }
+
+         .registerbtn{
+            background-color: turquoise;
+            color:black;
+            padding:16px 20px;
+            margin:8px;
+            cursor:pointer;
+            width:100%;
+            opacity:0.9%;
+            visibility:true;
+            border-radius:100px;
+             }
+
+            .registerbtn:hover{
+                opacity:1;
+                }
+
+                a{
+                    color:blue;
+                }
+
+                .form{
+                    background-color:linear-gradient(rgb(14, 39, 77)black)
+                }
+
